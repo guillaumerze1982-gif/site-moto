@@ -1,7 +1,18 @@
 {
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
   "framework": "nextjs",
   "outputDirectory": ".next"
 }
+git commit -m "add vercel config"
+git push
+
+nano vercel.json
 {
   "version": 2,
   "builds": [
